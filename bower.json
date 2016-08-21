@@ -1,0 +1,16 @@
+{
+  "name": "santa",
+  "version": "0.0.0",
+  "authors": [
+    "Eugene Karetin <rincewind3@gmail.com>"
+  ],
+  "description": "santa",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.4",
+    "jquery.cookie": "*",
+    "icanhaz": "*",
+    "backbone": "*"
+  }
+}

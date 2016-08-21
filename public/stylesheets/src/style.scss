@@ -1,0 +1,102 @@
+.container {
+    margin: 20px 0 0 20px;
+    width: 800px;
+    .foot-links {
+        margin-top: 100px;
+    }
+    .add-list-block {
+        clear: both;
+        input.add-list {
+            width: 600px;
+            height: 20px;
+            display: inline-block;
+        }
+        button.add-list-button {
+            width: 50px;
+            height: 20px;
+            display: inline-block;
+        }
+    }
+    .list-block {
+        clear: both;
+        background-color: #ececec;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        .name-container {
+            clear: both;
+            .list-rating {
+                color: green;
+                font-size: 18px;
+                font-weight: bold;
+                width: 30px;
+                display: inline-block;
+            }
+            .list-name {
+                width: 600px;
+                display: inline-block;
+            }
+            .vote-button {
+                padding: 0;
+                border-radius: 50px;
+                width: 18px;
+                height: 18px;
+                display: inline-block;
+            }
+            .delete-button {
+                width: 50px;
+                height: 20px;
+                display: inline-block;
+            }
+        }
+        .members-container {
+            margin: 0 0 0 20px;
+            clear: both;
+            .add-member-block {
+                clear: both;
+                .add-member {
+                    width: 600px;
+                    display: inline-block;
+                }
+                .add-member-button {
+                    width: 30px;
+                    display: inline-block;
+                }
+            }
+            .member-container {
+                clear: both;
+                .member-rating {
+                    color: green;
+                    font-size: 14px;
+                    font-weight: bold;
+                    width: 20px;
+                    display: inline-block;
+                }
+                .member-name {
+                    width: 550px;
+                    display: inline-block;
+                }
+                .vote-button {
+                    border-radius: 50px;
+                    width: 17px;
+                    height: 17px;
+                    padding: 0;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+.check-pass {
+
+}
+
+.change-pass {
+
+}
+
+.error {
+    display: none;
+    color: red;
+}

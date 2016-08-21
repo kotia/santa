@@ -1,0 +1,112 @@
+.container {
+  margin: 20px 0 0 20px;
+  width: 800px;
+}
+
+.container .foot-links {
+  margin-top: 100px;
+}
+
+.container .add-list-block {
+  clear: both;
+}
+
+.container .add-list-block input.add-list {
+  width: 600px;
+  height: 20px;
+  display: inline-block;
+}
+
+.container .add-list-block button.add-list-button {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+}
+
+.container .list-block {
+  clear: both;
+  background-color: #ececec;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.container .list-block .name-container {
+  clear: both;
+}
+
+.container .list-block .name-container .list-rating {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  width: 30px;
+  display: inline-block;
+}
+
+.container .list-block .name-container .list-name {
+  width: 600px;
+  display: inline-block;
+}
+
+.container .list-block .name-container .vote-button {
+  padding: 0;
+  border-radius: 50px;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.container .list-block .name-container .delete-button {
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+}
+
+.container .list-block .members-container {
+  margin: 0 0 0 20px;
+  clear: both;
+}
+
+.container .list-block .members-container .add-member-block {
+  clear: both;
+}
+
+.container .list-block .members-container .add-member-block .add-member {
+  width: 600px;
+  display: inline-block;
+}
+
+.container .list-block .members-container .add-member-block .add-member-button {
+  width: 30px;
+  display: inline-block;
+}
+
+.container .list-block .members-container .member-container {
+  clear: both;
+}
+
+.container .list-block .members-container .member-container .member-rating {
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+  width: 20px;
+  display: inline-block;
+}
+
+.container .list-block .members-container .member-container .member-name {
+  width: 550px;
+  display: inline-block;
+}
+
+.container .list-block .members-container .member-container .vote-button {
+  border-radius: 50px;
+  width: 17px;
+  height: 17px;
+  padding: 0;
+  display: inline-block;
+}
+
+.error {
+  display: none;
+  color: red;
+}

@@ -1,0 +1,39 @@
+<script id="container" type="text/html">
+    <div class="container">
+    </div>
+</script>
+
+<script id="addSanta" type="text/html">
+    <div class="inner">
+        <b>Привет! Пожалуйста, заполни эту форму:</b><br>
+        <input type="text" name="name"> Твое имя<br>
+        <input type="text" name="email"> Твой имэйл (нужен для уникальной идентификации, по назначению использоваться не будет)<br>
+        <input type="text" name="password"> Придумай себе пароль (когда сюда вернешься, введешь его, чтобы узнать, кого тебе одаривать)<br>
+        <button class="sendData">Отправить!</button>
+        <div class="error emptyfields">Пожалуйста, заполни все поля!</div>
+    </div>
+</script>
+
+<script id="adderGreeting" type="text/html">
+    <div class="adderGreeting">
+        <b>Отлично! Заходи через пару дней, чтобы узнать, кому ты даришь свой подарок!</b>
+    </div>
+</script>
+
+<script id="getSanta" type="text/html">
+    <div class="inner">
+        <b>Привет! Лототрон уже был запущен! Пожалуйста, заполни эти поля, чтобы узнать результат</b><br>
+        <input type="text" name="email"> Имэйл<br>
+        <input type="text" name="password"> Пароль<br>
+        <button class="viewData">Отправить!</button>
+        <div class="error emptyfields">Пожалуйста, заполни все поля!</div>
+        <div class="error wrong">Запись не найдена!</div>
+
+    </div>
+</script>
+
+<script id="toInfo" type="text/html">
+    <div class="toInfo">
+        <b>Привет, {{santaName}}! Вот кого тебе придется одаривать: {{name}}</b>
+    </div>
+</script>
